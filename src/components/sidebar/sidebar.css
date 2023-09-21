@@ -1,0 +1,36 @@
+.sidebar {
+    width: 20%;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar>img{
+    margin-bottom: 30px;
+    width: 80%;
+}
+.sidebar button {
+    border: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: grey;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+}
+
+.sidebar button img {
+    margin-right: 15px;
+}
+
+.sidebar button.active {
+    background-color: blueviolet;
+    color: white;
+}
+.sidebar button select {
+    border: none;
+    color: grey;
+    position: absolute;
+    right: 10px;
+}

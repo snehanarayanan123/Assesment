@@ -1,0 +1,76 @@
+.dashboard{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.dashboardContainer{
+    width: 80%;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+.fieldsContainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.fieldsContainer>div{
+    border: 1px solid grey;
+    display: flex;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+.fieldsContainer>div>div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.fieldsContainer span{
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageContainer{
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.imageContainer img{
+    height: 20px;
+    width: 20px;
+}
+
+.bottomContainer{
+    height: 40%;
+    border: 1px solid grey;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.presentContainer{
+    display: flex;
+    align-items: center;
+}
+.presentContainer .totalVal{
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.value{
+    font-weight: 400;
+    font-size: 20px;
+    color: #2f2f60;
+}
+
+.title{
+    opacity: 0.5;
+}

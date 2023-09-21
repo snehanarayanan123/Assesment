@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #000052;
+}
+
+.header>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header input{
+    height: 10px;
+    font-size: 10px;
+    padding: 3px 10px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+.header select{
+    border: none;
+    opacity: 0.7;
+}
+.header span{
+    background-color: blueviolet;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 10px;
+}
+.header span img{
+    height: 20px;
+    width: 20px;
+}
